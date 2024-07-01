@@ -5,7 +5,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 
 import SingleCharacter from "./views/singleCharacter";
-import SingleSpecie from "./views/singleSpecie";
+import SinglePlanet from "./views/singlePlanet";
 import SingleVehicle from "./views/singleVehicle";
 import injectContext from "./store/appContext";
 
@@ -27,7 +27,7 @@ const Layout = () => {
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/people/:theid" element={<SingleCharacter/>} />
-						<Route path="/species/:theid" element={<SingleSpecie/>} />
+						<Route path="/planets/:theid" element={<SinglePlanet/>} />
 						<Route path="/vehicles/:theid" element={<SingleVehicle />} />
 					</Routes>
 					<Footer />

@@ -1,6 +1,5 @@
 const deleteFavoriteDispatcher = {
-    deleteFavorite: (favorite, favorites) => {
-       // console.log(`Borrando... ${favorite.name}`); 
+    deleteFavorite: (favorite, favorites) => {       
         const newFavorites = favorites.filter((item) => item.name !== favorite.name);
         console.log(newFavorites);
         return newFavorites;

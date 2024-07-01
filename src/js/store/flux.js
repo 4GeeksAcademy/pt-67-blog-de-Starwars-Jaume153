@@ -9,14 +9,14 @@ const getState = ({ getStore, getActions, setStore }) => {
 			people: [],
 			character: {},
 
-			species: [],
-			specie: {},
+			planets: [],
+			planet: {},
 
 			vehicles: [],
 			vehicle: {},
 
 			favorites: [],
-			resources: ['people', 'species', 'vehicles']
+			resources: ['people', 'planets', 'vehicles']
 		},
 		actions: {
 			getSWAPI: async (resource) => {

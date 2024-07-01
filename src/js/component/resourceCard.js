@@ -13,7 +13,7 @@ function ResourceCard(props) {
 
     const resourceImageUrls = {
         people: (uid) => `https://starwars-visualguide.com/assets/img/characters/${uid}.jpg`,
-        species: (uid) => `https://starwars-visualguide.com/assets/img/species/${uid}.jpg`,
+        planets: (uid) => `https://starwars-visualguide.com/assets/img/planets/${uid}.jpg`,
         planets: (uid) => `https://starwars-visualguide.com/assets/img/planets/${uid}.jpg`
     };
 
